@@ -1,2 +1,2 @@
 # Enterprise-Insider-Threat-Investigation
-Enterprise insider threat investigation and cloud e-Discovery processing pipeline using Python and SQL.
+Advanced DFIR & e-Discovery project focused on endpoint artifact extraction (FTK Imager/Autopsy) and cloud-native audit log processing (M365/Teams JSON) using Python and SQL to identify corporate insider threats.
