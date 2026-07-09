@@ -1,0 +1,150 @@
+{
+  "case_id": "DFIR-2026-001",
+  "export_source": "Microsoft Graph metadata export",
+  "driveItems": [
+    {
+      "driveItemId": "driveitem-normal-001",
+      "name": "Board_Meeting_Notes.docx",
+      "createdBy": "sarah.chen@contoso.example",
+      "createdDateTime": "2026-06-20T14:00:00Z",
+      "sensitivityLabel": "General Business",
+      "webUrl": "https://contoso.sharepoint.com/sites/CorporateDocs/Board_Meeting_Notes.docx",
+      "parentReference": {
+        "siteId": "site-corporate-docs",
+        "driveId": "drive-corporate-docs"
+      }
+    },
+    {
+      "driveItemId": "driveitem-normal-002",
+      "name": "Vendor_Pricing.xlsx",
+      "createdBy": "emily.choi@contoso.example",
+      "createdDateTime": "2026-06-20T14:00:00Z",
+      "sensitivityLabel": "Internal",
+      "webUrl": "https://contoso.sharepoint.com/sites/CorporateDocs/Vendor_Pricing.xlsx",
+      "parentReference": {
+        "siteId": "site-corporate-docs",
+        "driveId": "drive-corporate-docs"
+      }
+    },
+    {
+      "driveItemId": "driveitem-normal-003",
+      "name": "Executive_Bonus_Plan.docx",
+      "createdBy": "maria.gomez@contoso.example",
+      "createdDateTime": "2026-06-20T14:00:00Z",
+      "sensitivityLabel": "Internal",
+      "webUrl": "https://contoso.sharepoint.com/sites/CorporateDocs/Executive_Bonus_Plan.docx",
+      "parentReference": {
+        "siteId": "site-corporate-docs",
+        "driveId": "drive-corporate-docs"
+      }
+    },
+    {
+      "driveItemId": "driveitem-normal-004",
+      "name": "Q3_Forecast.xlsx",
+      "createdBy": "sarah.chen@contoso.example",
+      "createdDateTime": "2026-06-20T14:00:00Z",
+      "sensitivityLabel": "Confidential",
+      "webUrl": "https://contoso.sharepoint.com/sites/CorporateDocs/Q3_Forecast.xlsx",
+      "parentReference": {
+        "siteId": "site-corporate-docs",
+        "driveId": "drive-corporate-docs"
+      }
+    },
+    {
+      "driveItemId": "driveitem-normal-005",
+      "name": "Due_Diligence_Checklist.pdf",
+      "createdBy": "john.carter@contoso.example",
+      "createdDateTime": "2026-06-20T14:00:00Z",
+      "sensitivityLabel": "Internal",
+      "webUrl": "https://contoso.sharepoint.com/sites/CorporateDocs/Due_Diligence_Checklist.pdf",
+      "parentReference": {
+        "siteId": "site-corporate-docs",
+        "driveId": "drive-corporate-docs"
+      }
+    },
+    {
+      "driveItemId": "driveitem-normal-006",
+      "name": "Finance_Review.xlsx",
+      "createdBy": "maria.gomez@contoso.example",
+      "createdDateTime": "2026-06-20T14:00:00Z",
+      "sensitivityLabel": "Confidential",
+      "webUrl": "https://contoso.sharepoint.com/sites/CorporateDocs/Finance_Review.xlsx",
+      "parentReference": {
+        "siteId": "site-corporate-docs",
+        "driveId": "drive-corporate-docs"
+      }
+    },
+    {
+      "driveItemId": "driveitem-normal-007",
+      "name": "Customer_List.xlsx",
+      "createdBy": "john.carter@contoso.example",
+      "createdDateTime": "2026-06-20T14:00:00Z",
+      "sensitivityLabel": "Internal",
+      "webUrl": "https://contoso.sharepoint.com/sites/CorporateDocs/Customer_List.xlsx",
+      "parentReference": {
+        "siteId": "site-corporate-docs",
+        "driveId": "drive-corporate-docs"
+      }
+    },
+    {
+      "driveItemId": "driveitem-normal-008",
+      "name": "Pricing_Model.xlsx",
+      "createdBy": "linda.park@contoso.example",
+      "createdDateTime": "2026-06-20T14:00:00Z",
+      "sensitivityLabel": "Confidential",
+      "webUrl": "https://contoso.sharepoint.com/sites/CorporateDocs/Pricing_Model.xlsx",
+      "parentReference": {
+        "siteId": "site-corporate-docs",
+        "driveId": "drive-corporate-docs"
+      }
+    },
+    {
+      "driveItemId": "driveitem-normal-009",
+      "name": "HR_Transition_Plan.docx",
+      "createdBy": "emily.choi@contoso.example",
+      "createdDateTime": "2026-06-20T14:00:00Z",
+      "sensitivityLabel": "Internal",
+      "webUrl": "https://contoso.sharepoint.com/sites/CorporateDocs/HR_Transition_Plan.docx",
+      "parentReference": {
+        "siteId": "site-corporate-docs",
+        "driveId": "drive-corporate-docs"
+      }
+    },
+    {
+      "driveItemId": "driveitem-normal-010",
+      "name": "Integration_Timeline.docx",
+      "createdBy": "david.kim@contoso.example",
+      "createdDateTime": "2026-06-20T14:00:00Z",
+      "sensitivityLabel": "General Business",
+      "webUrl": "https://contoso.sharepoint.com/sites/CorporateDocs/Integration_Timeline.docx",
+      "parentReference": {
+        "siteId": "site-corporate-docs",
+        "driveId": "drive-corporate-docs"
+      }
+    },
+    {
+      "driveItemId": "driveitem-project-falcon-strategy-001",
+      "name": "Project_Falcon_Strategy.docx",
+      "createdBy": "john.carter@contoso.example",
+      "createdDateTime": "2026-06-22T16:12:00Z",
+      "sensitivityLabel": "Confidential - M&A",
+      "webUrl": "https://contoso.sharepoint.com/sites/ProjectFalcon/Project_Falcon_Strategy.docx",
+      "parentReference": {
+        "siteId": "site-project-falcon",
+        "driveId": "drive-project-falcon-docs"
+      }
+    },
+    {
+      "driveItemId": "driveitem-falcon-acquisition-targets-002",
+      "name": "Falcon_Acquisition_Targets.xlsx",
+      "createdBy": "john.carter@contoso.example",
+      "createdDateTime": "2026-06-22T16:13:00Z",
+      "sensitivityLabel": "Highly Confidential - M&A",
+      "webUrl": "https://contoso.sharepoint.com/sites/ProjectFalcon/Falcon_Acquisition_Targets.xlsx",
+      "parentReference": {
+        "siteId": "site-project-falcon",
+        "driveId": "drive-project-falcon-docs"
+      }
+    }
+  ]
+}
