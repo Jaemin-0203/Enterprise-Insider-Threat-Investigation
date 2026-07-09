@@ -98,7 +98,7 @@ The following screenshots demonstrate the complete investigation workflow from r
 
 The investigation begins with Microsoft Teams export data containing messages, metadata, attachments, and collaboration activity.
 
-![Teams Export JSON](screenshots/teams_export_json.png)
+![Teams Export JSON](screenshots/01_teams_export_json.png)
 
 ---
 
@@ -106,7 +106,7 @@ The investigation begins with Microsoft Teams export data containing messages, m
 
 Python was used to normalize Microsoft Teams, SharePoint, and OneDrive audit logs into a common investigation dataset.
 
-![Graph Metadata](screenshots/graph_metadata_json.png)
+![Graph Metadata](screenshots/02_graph_metadata_json.png)
 
 ---
 
@@ -114,7 +114,7 @@ Python was used to normalize Microsoft Teams, SharePoint, and OneDrive audit log
 
 Normalized evidence was imported into PostgreSQL for investigation and correlation.
 
-![Database Schema](screenshots/database_schema_design.png)
+![Database Schema](screenshots/03_database_schema.png)
 
 ---
 
@@ -122,7 +122,7 @@ Normalized evidence was imported into PostgreSQL for investigation and correlati
 
 SQL queries identified suspicious file access, downloads, sharing events, and user activity.
 
-![SQL Investigation](screenshots/sql_investigation.png)
+![SQL Investigation](screenshots/04_sql_investigation.png)
 
 ---
 
@@ -130,7 +130,7 @@ SQL queries identified suspicious file access, downloads, sharing events, and us
 
 Evidence integrity was verified using forensic hash validation.
 
-![FTK Hash Verification](screenshots/ftk_imager_evidence_hash.png)
+![FTK Hash Verification](screenshots/05_ftk_hash.png)
 
 ---
 
@@ -138,7 +138,7 @@ Evidence integrity was verified using forensic hash validation.
 
 Autopsy recovered endpoint artifacts associated with the investigation.
 
-![Autopsy](screenshots/autopsy_artifacts.png)
+![Autopsy Artifact Analysis](screenshots/06_autopsy_artifacts.png)
 
 ---
 
@@ -146,15 +146,15 @@ Autopsy recovered endpoint artifacts associated with the investigation.
 
 USB removable media artifacts confirmed removable storage usage during the investigation period.
 
-![USB Artifacts](screenshots/autopsy_artifacts_removable_media_used.png)
+![USB Artifacts](screenshots/07_usb_artifacts.png)
 
 ---
 
 ## 8. Investigation Timeline
 
-Evidence from multiple sources was correlated into a unified chronological timeline.
+Evidence from multiple sources was correlated into a unified chronological investigation timeline.
 
-![Timeline](screenshots/investigation_timeline.png)
+![Investigation Timeline](screenshots/08_timeline.png)
 
 # Project Structure
 
