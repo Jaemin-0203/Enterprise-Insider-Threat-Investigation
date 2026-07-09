@@ -88,11 +88,17 @@ The following screenshots demonstrate the complete investigation workflow from r
 
 ---
 
+# Investigation Walkthrough
+
+The following screenshots demonstrate the complete investigation workflow from raw Microsoft 365 evidence through forensic analysis and SQL-driven findings.
+
+---
+
 ## 1. Raw Microsoft Teams Evidence
 
 The investigation begins with Microsoft Teams export data containing messages, metadata, attachments, and collaboration activity.
 
-![Teams Export JSON](screenshots/teams_export_json.webp)
+![Teams Export JSON](screenshots/teams_export_json.png)
 
 ---
 
@@ -100,7 +106,7 @@ The investigation begins with Microsoft Teams export data containing messages, m
 
 Python was used to normalize Microsoft Teams, SharePoint, and OneDrive audit logs into a common investigation dataset.
 
-![Graph Metadata](screenshots/graph_metadata_json.webp)
+![Graph Metadata](screenshots/graph_metadata_json.png)
 
 ---
 
@@ -108,7 +114,7 @@ Python was used to normalize Microsoft Teams, SharePoint, and OneDrive audit log
 
 Normalized evidence was imported into PostgreSQL for investigation and correlation.
 
-![Database Schema](screenshots/database_schema_design.webp)
+![Database Schema](screenshots/database_schema_design.png)
 
 ---
 
@@ -116,7 +122,7 @@ Normalized evidence was imported into PostgreSQL for investigation and correlati
 
 SQL queries identified suspicious file access, downloads, sharing events, and user activity.
 
-![SQL Investigation](screenshots/sql_investigation.webp)
+![SQL Investigation](screenshots/sql_investigation.png)
 
 ---
 
@@ -124,7 +130,7 @@ SQL queries identified suspicious file access, downloads, sharing events, and us
 
 Evidence integrity was verified using forensic hash validation.
 
-![FTK Hash Verification](screenshots/ftk_imager_evidence_hash.webp)
+![FTK Hash Verification](screenshots/ftk_imager_evidence_hash.png)
 
 ---
 
@@ -132,7 +138,7 @@ Evidence integrity was verified using forensic hash validation.
 
 Autopsy recovered endpoint artifacts associated with the investigation.
 
-![Autopsy](screenshots/autopsy_artifacts.webp)
+![Autopsy](screenshots/autopsy_artifacts.png)
 
 ---
 
@@ -140,7 +146,7 @@ Autopsy recovered endpoint artifacts associated with the investigation.
 
 USB removable media artifacts confirmed removable storage usage during the investigation period.
 
-![USB Artifacts](screenshots/autopsy_artifacts_removable_media_used.webp)
+![USB Artifacts](screenshots/autopsy_artifacts_removable_media_used.png)
 
 ---
 
@@ -148,7 +154,7 @@ USB removable media artifacts confirmed removable storage usage during the inves
 
 Evidence from multiple sources was correlated into a unified chronological timeline.
 
-![Timeline](screenshots/investigation_timeline.webp)
+![Timeline](screenshots/investigation_timeline.png)
 
 # Project Structure
 
