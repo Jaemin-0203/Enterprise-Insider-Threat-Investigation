@@ -82,6 +82,73 @@ Investigation Findings & Reporting
 ```
 
 ---
+# Investigation Walkthrough
+
+The following screenshots demonstrate the complete investigation workflow from raw Microsoft 365 evidence through forensic analysis and SQL-driven findings.
+
+---
+
+## 1. Raw Microsoft Teams Evidence
+
+The investigation begins with Microsoft Teams export data containing messages, metadata, attachments, and collaboration activity.
+
+![Teams Export JSON](screenshots/teams_export_json.webp)
+
+---
+
+## 2. Evidence Normalization
+
+Python was used to normalize Microsoft Teams, SharePoint, and OneDrive audit logs into a common investigation dataset.
+
+![Graph Metadata](screenshots/graph_metadata_json.webp)
+
+---
+
+## 3. Database Design
+
+Normalized evidence was imported into PostgreSQL for investigation and correlation.
+
+![Database Schema](screenshots/database_schema_design.webp)
+
+---
+
+## 4. SQL Investigation
+
+SQL queries identified suspicious file access, downloads, sharing events, and user activity.
+
+![SQL Investigation](screenshots/sql_investigation.webp)
+
+---
+
+## 5. FTK Imager Hash Verification
+
+Evidence integrity was verified using forensic hash validation.
+
+![FTK Hash Verification](screenshots/ftk_imager_evidence_hash.webp)
+
+---
+
+## 6. Autopsy Artifact Analysis
+
+Autopsy recovered endpoint artifacts associated with the investigation.
+
+![Autopsy](screenshots/autopsy_artifacts.webp)
+
+---
+
+## 7. USB Artifact Analysis
+
+USB removable media artifacts confirmed removable storage usage during the investigation period.
+
+![USB Artifacts](screenshots/autopsy_artifacts_removable_media_used.webp)
+
+---
+
+## 8. Investigation Timeline
+
+Evidence from multiple sources was correlated into a unified chronological timeline.
+
+![Timeline](screenshots/investigation_timeline.webp)
 
 # Project Structure
 
