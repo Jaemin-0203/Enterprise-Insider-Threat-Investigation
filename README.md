@@ -14,6 +14,18 @@ Forensics](https://img.shields.io/badge/Digital-Forensics-darkgreen)
 
 ------------------------------------------------------------------------
 
+📄 Complete Investigation Report
+
+This GitHub repository focuses on the technical implementation of the investigation.
+
+For the complete forensic investigation report—including endpoint analysis, Microsoft 365 cloud investigation, evidence interpretation, investigation timeline, Power BI dashboard, and executive findings—please visit the accompanying Notion portfolio.
+
+🔗 View the Complete Investigation Report
+
+https://app.notion.com/p/Enterprise-Insider-Threat-Investigation-38273d22121f80c980c4ef077d9ff3cb?source=copy_link
+
+------------------------------------------------
+
 # Executive Summary
 
 A simulated enterprise insider threat investigation was conducted to
@@ -80,22 +92,14 @@ The investigation focused on determining whether the employee:
 
 ------------------------------------------------------------------------
 
-# Evidence Sources
+## Evidence Sources
 
-  -----------------------------------------------------------------------
-  Evidence Source                                Purpose
-  ---------------------------------------------- ------------------------
-  Microsoft Teams Export                         Messages, attachments,
-                                                 collaboration activity
-
-  SharePoint Audit Logs                          File access, downloads,
-                                                 sharing events
-
-  OneDrive Activity Logs                         Synchronization activity
-
-  Microsoft Graph Metadata                       File metadata and
-                                                 sensitivity labels
-  -----------------------------------------------------------------------
+| Source | Purpose |
+|---------|----------|
+| Microsoft Teams Export | Messages, attachments, collaboration activity |
+| SharePoint Audit Logs | File access, downloads, sharing events |
+| OneDrive Activity Logs | Synchronization activity |
+| Microsoft Graph Metadata | File metadata, ownership, sensitivity labels |
 
 ------------------------------------------------------------------------
 
